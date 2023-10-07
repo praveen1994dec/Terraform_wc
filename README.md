@@ -13,7 +13,8 @@ PUBLIC_KEY_PATH ADD FULL PATH IN VARIABLES.TF->
 8. Create Key pair ->    ssh-keygen -f oregon-region-key-pair 
 9. Run - terraform init
 10. terraform plan -out "file.plan"
-11. terraform destroy
-12. Define other necessary files. 
+11. terraform apply 
+12. terraform destroy
+13. Define other necessary files. 
 
 
