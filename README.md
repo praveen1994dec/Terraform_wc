@@ -7,9 +7,10 @@ PUBLIC_KEY_PATH ADD FULL PATH IN VARIABLES.TF->
 2. Install Python if not already done  https://www.python.org/downloads/
 3. Install aws cli - https://docs.aws.amazon.com/cli/v1/userguide/install-macos.html 
 4. Create access key for terraform https://aws.amazon.com/console/ 
-5. Use aws configure to configure the access keys  [ aws configure command ] 
-6. Define variables.tf and config.tf files. 
-7. Run - terraform init 
-8. Define other necessary files. 
-9. Create Key pair ->    ssh-keygen -f oregon-region-key-pair 
+5. Use aws configure to configure the access keys  [ aws configure command ]
+6. Create a S3 bucket and add the name in config.tf
+7. Define variables.tf and config.tf files. 
+8. Run - terraform init 
+9. Define other necessary files. 
+10. Create Key pair ->    ssh-keygen -f oregon-region-key-pair 
 
