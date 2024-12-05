@@ -12,5 +12,5 @@ variable "AMI" {
 }
 
 variable "PUBLIC_KEY_PATH" {
-    default = "/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/Terraform_learning_demo/Terraform_learning_demo/oregon-region-key-pair.pub"
+    default = "/root/project/Terraform_wc/file.pem"
 }
